@@ -1,5 +1,5 @@
 async function start(){
-    mapboxgl.accessToken = 'pk.eyJ1IjoianRvcnJlc3RvbmUiLCJhIjoiY2twbmdyYTBmMDVnYjJ1cXZ6dmp2MmN5cSJ9.-StTDCSEWebELOypaVjCvA';
+    mapboxgl.accessToken = 'PLACE YOUR ACCESS TOKEN HERE';
 
     // This array contains the coordinates for all bus stops between MIT and Harvard
     const vehicles = await getVehicleLocations();
